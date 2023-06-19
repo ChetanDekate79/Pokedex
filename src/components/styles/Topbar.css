@@ -1,0 +1,132 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #3286e6;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2); /* Add box shadow */
+}
+
+.title-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5vw;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add text shadow */
+}
+
+.logo {
+  height: 40px;
+  filter: invert(100%);
+}
+
+/* Rest of the CSS code remains the same */
+
+  
+  .content {
+    padding: 20px;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    background-color: #3286e6;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #555;
+  }
+  
+  /* .content {
+    padding: 2%;
+  } */
+
+  .image-box-container {
+    margin-top: 20px;
+  }
+  
+  /* Update the existing CSS styles or add the following styles to your CSS file */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-image {
+  width: 120px;
+  height: 120px;
+}
+
+.pokemon-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pagination-button {
+  background-color: #3286e6;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination-button:hover {
+  background-color: #45a049;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
